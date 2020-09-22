@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T04:13:43.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="1c8zY4nieqorEyWbEce-" version="13.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-22T04:18:01.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Bb8EG8pH6fA6rpJzEV_z" version="13.0.6" type="github">
   <diagram id="dn7dw0WBwALQRIZnS9FJ" name="Page-1">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,17 +16,17 @@
         <mxCell id="Whp04Phv12JBnaq401pB-9" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; Pod1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" parent="1" vertex="1">
           <mxGeometry x="160" y="125" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Whp04Phv12JBnaq401pB-13" value="Contenedor MQ Activo" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="140" width="70" height="40" as="geometry" />
+        <mxCell id="Whp04Phv12JBnaq401pB-13" value="Contenedor MQ1 Activo" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="140" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Whp04Phv12JBnaq401pB-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="100" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Whp04Phv12JBnaq401pB-15" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Pod1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" parent="1" vertex="1">
+        <mxCell id="Whp04Phv12JBnaq401pB-15" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Pod2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" parent="1" vertex="1">
           <mxGeometry x="490" y="125" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Whp04Phv12JBnaq401pB-16" value="Contenedor MQ Standby" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="140" width="70" height="40" as="geometry" />
+        <mxCell id="Whp04Phv12JBnaq401pB-16" value="Contenedor MQ1 Standby" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="140" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="702EccPU8Jmpbdl0dacw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="702EccPU8Jmpbdl0dacw-1" target="Whp04Phv12JBnaq401pB-1">
           <mxGeometry relative="1" as="geometry" />
@@ -36,6 +36,69 @@
         </mxCell>
         <mxCell id="702EccPU8Jmpbdl0dacw-1" value="Balanceador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="702EccPU8Jmpbdl0dacw-4" target="702EccPU8Jmpbdl0dacw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-4" value="&lt;br&gt;Usuarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-7" value="Escenario Activo / standby" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-9" value="Cluster 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="510" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-10" value="Cluster 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-11" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; Pod1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="565" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-12" value="Contenedor MQ1 Activo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-14" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Pod3&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="565" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-15" value="Contenedor MQ1 Standby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="702EccPU8Jmpbdl0dacw-18" target="702EccPU8Jmpbdl0dacw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="702EccPU8Jmpbdl0dacw-18" target="702EccPU8Jmpbdl0dacw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-18" value="Balanceador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="702EccPU8Jmpbdl0dacw-20" target="702EccPU8Jmpbdl0dacw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-20" value="&lt;br&gt;Usuarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="850" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-21" value="Escenario Activo / Activo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-25" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; Pod2&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" vertex="1" parent="1">
+          <mxGeometry x="180" y="650" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-26" value="Contenedor MQ2 Standby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="665" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-28" value="&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;Pod4&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="650" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="702EccPU8Jmpbdl0dacw-29" value="Contenedor MQ2 Activo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="665" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
